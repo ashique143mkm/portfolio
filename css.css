@@ -1,0 +1,122 @@
+body{
+    background-image: url(./img/bgimg1.jpg);
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+}
+.bgimg{
+    
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+.test{
+    background: rgba(26, 30, 32, 0.856);
+    width: 100%;
+    height: 100%;
+    opacity: 75%;
+}
+.alignhead{
+    padding-top:200px;
+}
+.namestyle{
+    color: rgb(255, 208, 0);
+}
+.rpill{
+   opacity: 75%;
+   background-color:rgba(6, 80, 139, 0.986);
+   text-decoration-color: yellow;
+}
+.blockname
+{
+    color:  rgb(255, 208, 0);
+}
+.secondstage{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.thirdstage{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 3, 3);
+}
+.myImg{
+    position: relative;
+    margin-top:90px;
+    width:330px;
+    height:330px;
+    z-index: 0;
+}
+.secondh2{
+    margin-top:110px;
+    font-family: sans-serif;
+}
+.secondh4{
+    color: rgb(0, 110, 255)
+}
+
+.zimage{
+    position: absolute;
+    border: 5px solid gray;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    background: gold;
+    width: 80%;
+    left: 60px;
+    top: 3em;
+}
+.zdiv{
+    position: absolute;
+    
+    z-index: 1000;
+    border: 5px solid gray;
+    margin-top:60px;
+    box-shadow: gray;
+    z-index: 2; /* put .green-box above .dashed-box */
+    width: 20%;
+    left: 28%;
+    top: -35px;
+    width:260px;
+    height:330px;
+    opacity: 0.5
+    
+}
+img {
+    width:320px;
+    height:320px;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+  
+  
+  .gold-box {
+    position: absolute;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    background: gold;
+    width: 80%;
+    left: 60px;
+    top: 3em;
+  }
+  .green-box {
+    position: absolute;
+    z-index: 2; /* put .green-box above .dashed-box */
+    background: lightgreen;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 7em;
+    opacity: 0.9;
+  }
+  .fa-color{
+    color: rgb(0, 110, 255);
+    padding-right: 10px;
+  }
+
+ 
